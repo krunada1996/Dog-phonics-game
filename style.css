@@ -1,0 +1,52 @@
+/* ... (โค้ด CSS ส่วนใหญ่เหมือนเดิม) ... */
+
+#game-title {
+    color: #4CAF50; /* สีเขียวสำหรับธีมหมา */
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 0px rgba(255,255,255,0.7);
+}
+
+body {
+    background-color: #e8f5e9; /* เขียวอ่อนน่ารัก */
+    /* ... */
+}
+
+#doggy-character img { /* เปลี่ยนจาก catty-character */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #66bb6a; /* เขียว */
+    background-color: #fff;
+    object-fit: contain;
+    padding: 5px;
+}
+
+#enemy-character img {
+    border-color: #f44336; /* แดง */
+}
+
+.option-btn {
+    background-color: #3f51b5; /* น้ำเงิน */
+    /* ... */
+}
+
+.option-btn:hover {
+    background-color: #303f9f;
+}
+
+#feedback-message {
+    color: #4CAF50; /* เขียว */
+    /* ... */
+}
+
+#result-screen h2 {
+    color: #3f51b5; /* น้ำเงิน */
+    /* ... */
+}
+#mastery-message, #dog-rank { /* เปลี่ยนจาก cat-rank */
+    color: #3f51b5; /* น้ำเงิน */
+    font-weight: bold;
+}
+
+/* ... (แอนิเมชันต่างๆ ยังคงเหมือนเดิม) ... */
